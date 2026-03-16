@@ -23,7 +23,9 @@ There have been hundreds of Christmas-themed planetarium shows throughout the ye
 
 And the season was well-represented in 80s new age music catalogs, ranging from George Winston’s “December” album to the ongoing Manheim Steamroller series. 
 
-For this seasonal planetarium experiment, I’d like to split the difference between the driving Trans-Siberian Orchestra (TSO) approach to Christmas with a trans-Neptunian object (TNO) approach, which admittedly would not be a very close approach, as TNOs constitute minor planets which orbit the Sun at a distance greater than Neptune, averaging more than 30 astronomical units away from us (i.e. roughly 2.75 billion miles). So pack an extra thermos of hot chocolate, because the journey may take a while. 
+For this seasonal planetarium experiment, I’d like to split the difference between the propulsive Trans-Siberian Orchestra (TSO) approach to Christmas with a far-flung trans-Neptunian object (TNO) approach. Admittedly, this would not be a very close approach, as TNOs constitute minor planets which orbit the Sun at a distance greater than Neptune, averaging more than 30 astronomical units away from us (i.e. roughly 2.75 billion miles). So pack an extra thermos of hot chocolate, because the journey may take a while. 
+
+I'd like to think the season can spread a little warmth no matter where you find yourself.
 
 ![Extreme trans-Neptunian objects]([https://example.com](https://upload.wikimedia.org/wikipedia/commons/5/56/Distant_object_orbits_%2B_Planet_Nine.png) "Extreme trans-Neptunian objects")
 
