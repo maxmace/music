@@ -28,7 +28,7 @@ The original 24dB per octave ladder filter combines with the pretty narrow capab
       <th colspan='2' style="border-width: 2px;
   border-color: #ffcc00;
   border-style: solid;
-  padding: 3px;">Hardware & Signal Flow  Comparison</th>
+  padding: 3px; text-align: center;"><h3>Hardware & Signal Flow  Comparison</h3></th>
     </tr>
   </thead>
   <tbody>
@@ -54,7 +54,7 @@ The original 24dB per octave ladder filter combines with the pretty narrow capab
   border-color: #ffcc00;
   border-style: solid;
   padding: 3px;">
-      <td colspan='2'><b>Use Case:</b> Lead melodies and drone foundations</td>
+      <td colspan='2' style=" text-align: center;"><b>Use Case:</b> Lead melodies and drone foundations</td>
     </tr>
   </tbody>
 </table>
