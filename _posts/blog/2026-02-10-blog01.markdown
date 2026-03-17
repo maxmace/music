@@ -47,6 +47,6 @@ This article serves as the first in a series of technical deep-dives into the **
 > — *Studio Note, 2025*
 
 
-[^1]
+[^1]:
 FOOTNOTE "the machine that makes the music"
 Because I am not using AI music creation techniques, **I** am the machine (in this case) that makes the music. As AI music takes up more and more of the domain space, it might be interesting to talk about the methods and means that produce these generated units of content, but that will be a job best left to future historians to think about. Or possibly the machines that do the thinking for them. 
