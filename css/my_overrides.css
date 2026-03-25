@@ -490,6 +490,111 @@ audio::-webkit-media-controls-enclosure {
 }
 
 /* ==========================================================================
+   COLLAPSIBLE SECTION STYLING
+
+   ENHANCED SECTION TOGGLE UI (BOTTOM-LEFT STYLE)
+   ========================================================================== */
+
+.section-summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+/* Remove default marker */
+.section-summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Stack header vertically */
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Center the title block */
+.section-title {
+    width: 100%;
+}
+
+/* Toggle control (bottom-left) */
+.section-toggle-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.8em;
+    color: #457ca2;
+    /* color: #00f2ff; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Chevron BEFORE text */
+.section-toggle-indicator .chevron {
+    font-size: 14px;
+    transition: transform 0.25s ease;
+}
+
+/* Rotate when open */
+.section-toggle[open] .chevron {
+    transform: rotate(180deg);
+}
+
+/* Dynamic text */
+.section-toggle .toggle-text::before {
+    content: "Show Section";
+}
+
+.section-toggle[open] .toggle-text::before {
+    content: "Hide Section";
+}
+
+/* Hover effect */
+.section-summary:hover .section-toggle-indicator {
+    text-shadow: 0 0 8px #00f2ff;
+}
+
+/*
+Add a subtle divider when collapsed:
+*/
+.section-toggle:not([open]) {
+    border-bottom: 1px solid rgba(0, 242, 255, 0.3);
+    margin-bottom: 15px;  /* NEW: pushes divider down */
+}
+
+/* ==========================================================================
+   NAVBAR GLOBAL TOGGLE CONTROL
+   ========================================================================== */
+.nav-toggle-all {
+    display: flex !important;
+    align-items: center;
+    gap: 5px;
+
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.65em;              /* smaller text */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    color: #5f8fa8 !important;      /* darker, more subdued blue */
+    opacity: 0.8;                  /* slightly muted */
+}
+
+/* Chevron styling */
+.nav-toggle-all .chevron {
+    font-size: 11px;
+    transition: transform 0.25s ease;
+
+/* Hover effect */
+.nav-toggle-all:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px #00f2ff;
+}
+
+/* ==========================================================================
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT
    ========================================================================== */
 @media not all and (min-resolution:.001dpcm) { 
