@@ -55,3 +55,51 @@ id="bs-example-navbar-collapse-1">
 </div> 
 </div> 
 </nav>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.getElementById("toggle-all-sections");
+    if (!toggleBtn) return;
+
+    let allOpen = true;
+
+    toggleBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const sections = document.querySelectorAll("details.section-toggle");
+
+        allOpen = !allOpen;
+
+        sections.forEach(section => {
+            section.open = allOpen;
+        });
+
+        const text = toggleBtn.querySelector(".toggle-text");
+        const chevron = toggleBtn.querySelector(".chevron");
+
+        if (allOpen) {
+            text.textContent = "Collapse All";
+            chevron.style.transform = "rotate(180deg)";
+        } else {
+            text.textContent = "Expand All";
+            chevron.style.transform = "rotate(0deg)";
+        }
+    });
+
+    // Set initial state based on actual page
+    const sections = document.querySelectorAll("details.section-toggle");
+    const allCurrentlyOpen = Array.from(sections).every(s => s.open);
+
+    const text = toggleBtn.querySelector(".toggle-text");
+    const chevron = toggleBtn.querySelector(".chevron");
+
+    if (allCurrentlyOpen) {
+        text.textContent = "Collapse All";
+        chevron.style.transform = "rotate(180deg)";
+        allOpen = true;
+    } else {
+        text.textContent = "Expand All";
+        chevron.style.transform = "rotate(0deg)";
+        allOpen = false;
+    }
+});
+</script>
