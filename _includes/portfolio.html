@@ -1,36 +1,40 @@
 <section id="portfolio">
-    <div class="container">
-        <div class="row">
-            <!--
-            <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
-                <hr class="star-primary">
-            </div> 
-            -->
-            <div class="col-lg-12 text-center">
-                <h2 class="hollow-text" style="font-size: 50px !important;">Portfolio</h2>
-                <hr class="star-light-custom">
-                <h3 class="section-subheading" style="color: #9adfff; margin-bottom: 50px;">Audiovisual voyages of cosmic introspection and symphonic retrospection</h3>
+
+    <details open class="section-toggle">
+
+        <summary class="section-summary">
+            <h2 class="hollow-text" style="font-size: 50px !important;">
+                Portfolio
+            </h2>
+            <hr class="star-light-custom">
+            <h3 class="section-subheading" style="color: #9adfff; margin-bottom: 50px;">
+                Audiovisual voyages of cosmic introspection and symphonic retrospection
+            </h3>
+        </summary>
+
+        <div class="container">
+
+            <div class="row">
+                {% for post in site.posts %}
+                    {% if post.img and post.layout == "portfolio" %}
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="{{ post.url | relative_url }}" class="portfolio-link">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-arrow-right fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="{{ site.baseurl }}/{{ post.img }}"
+                                     class="img-responsive"
+                                     alt="{{ post.alt | default: post.title }}">
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
             </div>
+
         </div>
 
-        <div class="row">
-            {% for post in site.posts %}
-                {% if post.img and post.layout == "portfolio" %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="{{ post.url | relative_url }}" class="portfolio-link">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-arrow-right fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="{{ site.baseurl }}/{{ post.img }}"
-                                 class="img-responsive"
-                                 alt="{{ post.alt | default: post.title }}">
-                        </a>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+    </details>
+
 </section>
