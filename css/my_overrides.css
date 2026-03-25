@@ -565,6 +565,33 @@ Add a subtle divider when collapsed:
     padding-bottom: 10px;
 }
 
+/* ==========================================================================
+   NAVBAR GLOBAL TOGGLE CONTROL
+   ========================================================================== */
+
+.nav-toggle-all {
+    display: flex !important;
+    align-items: center;
+    gap: 6px;
+
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    color: #00f2ff !important;
+}
+
+.nav-toggle-all .chevron {
+    transition: transform 0.25s ease;
+    font-size: 12px;
+}
+
+/* Hover effect */
+.nav-toggle-all:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px #00f2ff;
+}
 
 /* ==========================================================================
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT
