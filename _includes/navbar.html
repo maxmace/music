@@ -47,7 +47,7 @@ id="bs-example-navbar-collapse-1">
 <li>
     <a href="#" id="toggle-all-sections" class="nav-toggle-all">
         <span class="chevron">▾</span>
-        <span class="toggle-text">Collapse All</span>
+        <span class="toggle-text">[ Collapse All ]</span>
     </a>
 </li>
 
@@ -77,10 +77,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const chevron = toggleBtn.querySelector(".chevron");
 
         if (allOpen) {
-            text.textContent = "Collapse All";
+            text.textContent = "[ Collapse All ]";
             chevron.style.transform = "rotate(180deg)";
         } else {
-            text.textContent = "Expand All";
+            text.textContent = "[ Expand All ]";
             chevron.style.transform = "rotate(0deg)";
         }
     });
