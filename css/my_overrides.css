@@ -524,6 +524,67 @@ audio::-webkit-media-controls-enclosure {
 }
 
 /* ==========================================================================
+   ENHANCED SECTION TOGGLE UI
+   ========================================================================== */
+
+.section-summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+/* Remove default marker */
+.section-summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Layout: title left, toggle right */
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Right-side toggle control */
+.section-toggle-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.85em;
+    color: #00f2ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+/* Chevron styling */
+.section-toggle-indicator .chevron {
+    font-size: 16px;
+    transition: transform 0.25s ease;
+}
+
+/* Rotate when open */
+.section-toggle[open] .chevron {
+    transform: rotate(180deg);
+}
+
+/* Dynamic text via CSS */
+.section-toggle .toggle-text::before {
+    content: "Show Section";
+}
+
+.section-toggle[open] .toggle-text::before {
+    content: "Hide Section";
+}
+
+/* Optional hover polish */
+.section-summary:hover .section-toggle-indicator {
+    text-shadow: 0 0 8px #00f2ff;
+}
+
+
+/* ==========================================================================
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT
    ========================================================================== */
 @media not all and (min-resolution:.001dpcm) { 
