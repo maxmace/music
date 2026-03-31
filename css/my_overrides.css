@@ -1,622 +1,1221 @@
-/* ==========================================================================
+==========================================================================
+
    0. GRID LAYOUT & FLEXBOX (UNIFIED)
+
    ========================================================================== */
+
+
 
 /* Fixes spacing/alignment for Portfolio, Article, and Studio thumbnails */
+
 #portfolio .row, 
+
 .article-flex-grid {
+
     display: flex;
+
     flex-wrap: wrap;
+
 }
+
+
 
 #portfolio .portfolio-item,
+
 .article-item,
+
 .studio-item {
+
     float: none !important;
+
     display: flex;
+
     flex-direction: column;
+
 }
+
+
 
 #portfolio .portfolio-link,
+
 .article-link,
+
 .studio-link {
+
     width: 100%;
+
     flex-grow: 1;
+
 }
+
+
 
 #portfolio img.img-responsive {
+
     width: 100%;
+
     height: auto;
+
 }
+
+
 
 /* Force Portfolio Heading to stay centered on all screen sizes */
+
 #portfolio .text-center, 
+
 #portfolio h2.section-heading,
+
 #portfolio h2 {
+
     text-align: center !important;
+
     width: 100% !important;
+
     display: block !important;
+
 }
+
+
 
 /* Ensure the star divider stays centered as well */
+
 #portfolio hr.star-primary {
+
     margin: 25px auto !important;
+
 }
 
+
+
 /* ==========================================================================
+
    1. GLOBAL THEME & SECTION OVERRIDES
+
    ========================================================================== */
+
+
 
 body {
+
     background-color: #0d1017 !important;
+
 }
+
+
 
 header, 
+
 #portfolio,
+
 #articles {
+
     background-color: #0d1017 !important; 
+
     background-image: none !important;
+
 }
+
+
 
 /* FIX: Portfolio Heading is only solid if it DOES NOT have the hollow class */
+
 #portfolio h2:not(.hollow-text) {
+
     color: #ffffff !important;
+
     text-transform: uppercase;
+
     font-weight: 700;
+
     letter-spacing: 1px;
+
 }
+
+
 
 /* Ensure the star divider icon matches the white heading */
+
 #portfolio hr.star-primary,
+
 #portfolio hr.star-primary:after {
+
     border-color: #ffffff !important;
+
     color: #ffffff !important;
+
     background-color: #0d1017 !important;
+
 }
+
+
 
 /* Default Link Styling */
+
 a { color: #00f2ff; transition: all 0.3s ease; }
+
 a:hover { color: #ffffff; text-decoration: none; }
 
+
+
 /* ==========================================================================
+
    2. HOLLOW TEXT & COSMIC ANIMATIONS
+
    ========================================================================== */
+
+
 
 @keyframes spin {
+
     from { transform: rotate(0deg); }
+
     to { transform: rotate(360deg); }
+
 }
+
+
 
 img.inline-spinner {
+
     animation: spin 40s linear infinite !important;
+
     display: block !important;
+
     margin: 0 auto !important;
+
     max-width: 250px !important;
+
     border-radius: 50%;
+
 }
+
+
 
 .hollow-text {
+
     display: inline-block !important;
+
     font-weight: 900 !important;
+
+    color: transparent !important;
+
+    -webkit-text-stroke: 2px #ffffff !important;
+
     text-transform: uppercase !important;
 
-    /* 1. The Hollow Core */
-    color: transparent !important;
-    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1),
 
-    /* 2. The Solid Outline (Re-asserted) */
-    -webkit-text-stroke: 2px #ffffff !important;
-    paint-order: stroke fill !important; /* Forces the stroke to be prominent */
+                 0 0 30px rgba(0, 212, 255, 0.8) !important;
 
-    /* 3. The Glow (Reduced blur to prevent the "blob" look) */
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-                 0 0 20px rgba(0, 242, 255, 0.5) !important;
-                 
-    /* 4. Filter Reset (Ensures theme blurs don't interfere) */
-    filter: none !important;
 }
+
+
 
 .star-light-custom {
+
     border: none !important;
+
     height: 2px !important;
+
     background-color: #00f2ff !important;
+
     box-shadow: 0 0 15px #00f2ff,
+
                 0 0 25px #00f2ff !important;
+
     margin: 25px auto !important;
+
     width: 200px !important;
+
 }
 
+
+
 /* ==========================================================================
+
    3. VIDEO PLAYER & YOUTUBE ELEMENTS (STABILIZED)
+
    ========================================================================== */
+
+
 
 /* Standard Video Container (Used in Portfolio Posts) */
+
 .video-container {
+
     position: relative;
+
     width: 100%;
+
     padding-bottom: 56.25%; /* Fixed 16:9 Aspect Ratio */
+
     height: 0;
+
     overflow: hidden;
+
     background-color: #000;
+
     border-radius: 8px;
+
     margin-bottom: 20px;
+
 }
+
+
 
 /* Responsive Hero Video (Specific to About section) */
+
 .video-responsive {
+
     overflow: hidden;
+
     padding-bottom: 56.25%; /* 16:9 Ratio */
+
     position: relative;
+
     height: 0;
+
     width: 100%; 
+
     margin-top: 30px;
+
     border: 1px solid rgba(0, 242, 255, 0.3);
+
     box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
+
 }
+
+
 
 /* Ensures all iframes fill their specific containers */
+
 .video-container iframe,
+
 .video-responsive iframe,
-.video-thumb-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
 
 .video-thumb-wrapper {
-    cursor: pointer;
-    z-index: 5;
-    display: block;
-    border: 1px solid #00f2ff !important;
-    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
-    border-radius: 8px;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    border: none;
+
 }
+
+
+
+.video-thumb-wrapper {
+
+    cursor: pointer;
+
+    z-index: 5;
+
+    display: block;
+
+    border: 1px solid #00f2ff !important;
+
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+
+    border-radius: 8px;
+
+}
+
+
 
 .video-thumb-wrapper img {
+
     width: 100%;
+
     height: 100%;
+
     object-fit: cover;
+
     border-radius: 8px;
+
 }
+
+
 
 .play-overlay {
+
     position: absolute;
+
     top: 50%; left: 50%;
+
     transform: translate(-50%, -50%);
+
     width: 60px; height: 60px;
+
     background: rgba(0, 0, 0, 0.6);
+
     border: 2px solid #ffffff;
+
     border-radius: 50%;
+
     z-index: 10;
+
     color: #00f2ff;
+
     pointer-events: none; 
+
 }
+
+
 
 .play-overlay::after {
+
     content: "";
+
     position: absolute;
+
     top: 50%; left: 55%;
+
     transform: translate(-50%, -50%);
+
     border-style: solid;
+
     border-width: 10px 0 10px 18px;
+
     border-color: transparent transparent transparent #ffffff;
+
 }
+
+
 
 .video-thumb-wrapper:hover .play-overlay {
+
     background: rgba(0, 242, 255, 0.8);
+
     border-color: #00f2ff;
+
     transform: translate(-50%, -50%) scale(1.1);
+
     box-shadow: 0 0 20px #00f2ff;
+
 }
+
+
 
 .video-caption {
+
     text-align: center;
+
     margin-top: 10px;
+
     color: #e5e7eb;
+
     font-size: 0.9em;
+
 }
 
+
+
 /* ==========================================================================
+
    4. ARTICLES (DUSTY INDIGO) & THUMBNAILS
+
    ========================================================================== */
+
+
 
 #articles {
+
     background-color: #1b1e2b !important; 
+
     padding: 100px 0;
+
     border-top: 1px solid #2d324a; 
+
 }
+
+
 
 .article-item {
+
     background-color: #24283b; 
+
     border: 1px solid #3d4461;
+
     overflow: hidden;
+
 }
+
+
 
 .article-bg-img {
+
     width: 100%;
+
     height: 100%;
+
     object-fit: cover;
+
     filter: grayscale(90%) brightness(20%); 
+
     transition: all 0.5s ease;
+
 }
+
+
 
 .article-item:hover .article-bg-img { 
+
     filter: grayscale(60%) brightness(30%); 
+
     transform: scale(1.03); 
+
 }
+
+
 
 .article-body-content, 
+
 .portfolio-content-body {
+
     font-size: 1.2rem;
+
     line-height: 1.8;
+
     color: #e5e7eb;
+
 }
+
+
 
 .article-body-content h3, .portfolio-content-body h3 {
+
     color: #c6f1ff;
+
     border-bottom: 1px solid rgba(0, 242, 255, 0.1);
+
     padding-bottom: 5px;
+
     margin-top: 1.5em;
+
 }
+
+
 
 .article-body-content img,
+
 .portfolio-content-body img {
+
     max-width: 100%;
+
     height: auto;
+
     display: block;
+
     margin: 1.5rem auto; 
+
     border-radius: 4px;
+
 }
 
+
+
 /* ==========================================================================
+
    5. NAVBAR (GLASSMORPHISM & ACTIVE TABS)
+
    ========================================================================== */
+
+
 
 .navbar-custom {
+
     background-color: rgba(13, 16, 23, 0.8) !important;
+
     backdrop-filter: blur(10px);
+
     -webkit-backdrop-filter: blur(10px);
+
     border-bottom: 1px solid rgba(0, 242, 255, 0.2);
+
     padding: 10px 0;
+
 }
+
+
 
 .navbar-custom .navbar-brand.hollow-navbar-title {
+
     color: transparent !important;
+
     -webkit-text-stroke: 1px #ffffff !important;
+
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+
 }
+
+
 
 .navbar-custom .nav li a {
+
     font-family: "Century Gothic", sans-serif;
+
     text-transform: uppercase;
+
     letter-spacing: 2px;
+
     font-weight: 300;
+
     color: #9adfff !important;
+
     border: 1px solid transparent; 
+
     border-radius: 4px;
+
     margin: 0 5px;
+
     transition: all 0.3s ease;
+
 }
+
+
 
 .navbar-custom .nav li.active a {
+
     background-color: rgba(0, 242, 255, 0.15) !important; 
+
     color: #ffffff !important;
+
     border: 1px solid rgba(0, 242, 255, 0.6) !important; 
+
     box-shadow: 0 0 10px rgba(0, 242, 255, 0.4), 
+
                 inset 0 0 5px rgba(0, 242, 255, 0.2);
+
     text-shadow: 0 0 8px #ffffff;
+
 }
+
+
 
 .navbar-custom .nav li a:hover {
+
     background-color: rgba(255, 255, 255, 0.05);
+
     border: 1px solid rgba(255, 255, 255, 0.2);
+
     color: #ffffff !important;
+
 }
 
+
+
 /* ==========================================================================
+
    6. CONTACT SECTION (UNIFIED DARK TEAL)
+
    ========================================================================== */
+
+
 
 #contact {
+
     background-color: #1a3d4c !important; 
+
     color: #ffffff !important;
+
     padding: 100px 0;
+
     margin: 0 !important; 
+
 }
+
+
 
 #contact h2, #contact hr.star-primary {
+
     color: #ffffff !important;
+
 }
+
+
 
 #contact .form-control {
+
     background-color: rgba(255, 255, 255, 0.1) !important;
+
     border: 1px solid #00f2ff !important;
+
     color: #ffffff !important;
+
 }
+
+
 
 #contact .btn-success {
+
     background-color: #00f2ff !important;
+
     color: #0d1017 !important;
+
     border: none;
+
     font-weight: bold;
+
     padding: 15px 30px;
+
 }
 
+
+
 /* ==========================================================================
+
    7. STUDIO SECTION (HYBRID GEAR GALLERY)
+
    ========================================================================== */
+
+
 
 #studio {
+
     background-color: #1a3d4c !important; 
+
     color: #ffffff !important;
+
     padding: 100px 0;
+
 }
+
+
 
 .studio-item {
+
     background-color: rgba(255, 255, 255, 0.05);
+
     border: 1px solid rgba(0, 242, 255, 0.3);
+
     overflow: hidden;
+
     transition: all 0.3s ease;
+
     margin-bottom: 30px;
+
 }
+
+
 
 .studio-img-clean {
+
     width: 100%;
+
     height: auto;
+
     object-fit: cover;
+
     filter: none !important; 
+
     opacity: 1 !important;
+
     transition: transform 0.5s ease;
+
 }
+
+
 
 .studio-item:hover {
+
     border-color: #00f2ff;
+
     box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+
 }
+
+
 
 .studio-item:hover .studio-img-clean {
+
     transform: scale(1.05);
+
 }
 
+
+
 /* ==========================================================================
+
    8. FOOTER UNIFICATION
+
    ========================================================================== */
+
+
 
 footer {
+
     padding: 0 !important;
+
     margin: 0 !important;
+
     background-color: #2c3e50 !important; 
+
     border: none !important;
+
 }
+
+
 
 .footer-above {
+
     padding: 50px 0 30px 0;
+
     background-color: #2c3e50 !important;
+
 }
+
+
 
 .footer-below {
+
     padding: 20px 0;
+
     background-color: #233140 !important; 
+
     color: rgba(154, 223, 255, 0.5);
+
     font-size: 0.8em;
+
 }
+
+
 
 .btn-social {
+
     display: inline-block;
+
     width: 45px; height: 45px;
+
     border: 1px solid rgba(0, 242, 255, 0.3);
+
     border-radius: 50%;
+
     text-align: center;
+
     line-height: 43px;
+
     color: #00f2ff;
+
     margin: 0 8px;
+
     transition: all 0.3s ease;
+
 }
+
+
 
 .btn-social:hover {
+
     background-color: #00f2ff;
+
     color: #0d1017;
+
     box-shadow: 0 0 20px #00f2ff;
+
     transform: translateY(-3px);
+
 }
 
+
+
 /* ==========================================================================
+
    9. COSMIC AUDIO PLAYER SKIN
+
    ========================================================================== */
+
 .audio-player-container {
+
     background: rgba(13, 16, 23, 0.6) !important;
+
     backdrop-filter: blur(5px);
+
     -webkit-backdrop-filter: blur(5px);
+
     border: 1px solid rgba(0, 242, 255, 0.3) !important;
+
     border-radius: 4px;
+
     padding: 20px;
+
     margin: 30px 0;
+
     box-shadow: 0 0 15px rgba(0, 242, 255, 0.1);
+
     transition: all 0.3s ease;
+
 }
+
+
 
 .audio-player-container:hover {
+
     border-color: rgba(0, 242, 255, 0.8) !important;
+
     box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+
 }
+
+
 
 .audio-label {
+
     color: #00f2ff;
+
     font-family: "Century Gothic", sans-serif;
+
     text-transform: uppercase;
+
     letter-spacing: 2px;
+
     font-size: 0.8em;
+
     margin-bottom: 12px;
+
     display: flex;
+
     align-items: center;
+
 }
+
+
 
 .audio-label i {
+
     margin-right: 10px;
+
     font-size: 1.2em;
+
 }
+
+
 
 audio::-webkit-media-controls-enclosure {
+
     background-color: rgba(154, 223, 255, 0.1) !important;
+
 }
+
+
 
 /* ========================================================================== 
+
    10. REFERENCE & INFO BOXES
+
    ========================================================================== */
+
+
 
 .about-reference-box {
+
     border: 1px solid rgba(0, 242, 255, 0.6);
+
     padding: 20px;
+
     margin: 30px 0;
+
     border-radius: 6px;
+
     background-color: rgba(0, 242, 255, 0.05);
+
 }
+
+
 
 .post-reference-box {
+
     border: 1px solid rgba(0, 242, 255, 0.6) !important; 
+
     padding: 1.5rem;
+
     margin: 1.5rem;
+
     font-size: 2rem;   
+
     color: LightCyan;
+
     font-style: italic;
+
 }
+
+
 
 .post-info-box {
+
     border: 1px solid PowderBlue;
+
     padding: 3rem;
+
     margin: 3rem 0;
+
     border-radius: 0.125rem;
+
 }
+
+
 
 .article-body-content ul,
+
 .article-body-content ol,
+
 .article-body-content li,
+
 .portfolio-content-body ul,
+
 .portfolio-content-body ol,
+
 .portfolio-content-body li {
+
     font-size: 1.2em;
+
 }
 
+
+
 /* ==========================================================================
+
    COLLAPSIBLE SECTION STYLING
 
+
+
    ENHANCED SECTION TOGGLE UI (BOTTOM-LEFT STYLE)
+
    ========================================================================== */
+
+
 
 .section-summary {
+
     cursor: pointer;
+
     list-style: none;
+
 }
+
+
 
 /* Remove default marker */
+
 .section-summary::-webkit-details-marker {
+
     display: none;
+
 }
+
+
 
 /* Stack header vertically */
+
 .section-header {
+
     display: flex;
+
     flex-direction: column;
+
     align-items: flex-start;
+
 }
+
+
 
 /* Center the title block */
+
 .section-title {
+
     width: 100%;
+
 }
+
+
 
 /* Toggle control (bottom-left) */
+
 .section-toggle-indicator {
+
     display: flex;
+
     align-items: center;
+
     gap: 6px;
+
     margin-top: 10px;
+
     margin-bottom: 15px;
 
+
+
     font-family: "Century Gothic", sans-serif;
+
     font-size: 0.8em;
+
     color: #457ca2;
+
     /* color: #00f2ff; */
+
     text-transform: uppercase;
+
     letter-spacing: 1px;
+
 }
+
+
 
 /* Chevron BEFORE text */
+
 .section-toggle-indicator .chevron {
+
     font-size: 14px;
+
     transition: transform 0.25s ease;
+
 }
+
+
 
 /* Rotate when open */
+
 .section-toggle[open] .chevron {
+
     transform: rotate(180deg);
+
 }
+
+
 
 /* Dynamic text */
+
 .section-toggle .toggle-text::before {
+
     content: "Show Section";
+
 }
+
+
 
 .section-toggle[open] .toggle-text::before {
+
     content: "Hide Section";
+
 }
 
+
+
 /* Hover effect */
+
 .section-summary:hover .section-toggle-indicator {
+
     text-shadow: 0 0 8px #00f2ff;
+
 }
+
+
 
 /*
+
 Add a subtle divider when collapsed:
+
 */
+
 .section-toggle:not([open]) {
+
     border-bottom: 1px solid rgba(0, 242, 255, 0.3);
+
     margin-bottom: 15px;  /* NEW: pushes divider down */
+
 }
 
+
+
 /* ==========================================================================
+
    NAVBAR GLOBAL TOGGLE CONTROL
+
    ========================================================================== */
+
 .nav-toggle-all {
+
     display: flex !important;
+
     align-items: center;
+
     gap: 5px;
 
+
+
     font-family: "Century Gothic", sans-serif;
+
     font-size: 0.65em;              /* smaller text */
+
     text-transform: uppercase;
+
     letter-spacing: 1px;
 
+
+
     color: #5f8fa8 !important;      /* darker, more subdued blue */
+
     opacity: 0.8;                  /* slightly muted */
+
 }
+
+
 
 /* Chevron styling */
+
 .nav-toggle-all .chevron {
+
     font-size: 11px;
+
     transition: transform 0.25s ease;
 
+
+
 /* Hover effect */
+
 .nav-toggle-all:hover {
+
     color: #ffffff !important;
+
     text-shadow: 0 0 8px #00f2ff;
+
 }
 
+
+
 /* ==========================================================================
+
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT
+
    ========================================================================== */
+
 @media not all and (min-resolution:.001dpcm) { 
+
     @supports (-webkit-appearance:none) {
+
         .hollow-text {
+
             text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+
                          0 0 10px rgba(0, 212, 255, 0.5) !important;
+
             -webkit-text-stroke: 1px #ffffff !important;
+
         }
+
         .star-light-custom {
+
             box-shadow: 0 0 5px #00f2ff, 0 0 10px #00f2ff !important;
+
         }
+
     }
+
 }
