@@ -193,23 +193,30 @@ img.inline-spinner {
 
 
 .hollow-text {
-
     display: inline-block !important;
-
     font-weight: 900 !important;
-
-    color: transparent !important;
-
-    -webkit-text-stroke: 2px #ffffff !important;
-
     text-transform: uppercase !important;
 
+    /* 1. Use webkit-text-fill-color instead of just color */
+    /* This is more reliable in Edge for transparency */
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+
+    /* 2. Re-assert the stroke */
+    -webkit-text-stroke: 2px #ffffff !important;
+
+    /* 3. THE MAGIC FIX FOR EDGE: paint-order */
+    /* This forces the outline to be drawn ON TOP of the shadow/glow */
+    paint-order: stroke fill !important;
+
+    /* 4. Optimize for legibility (fixes the blurry edges) */
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    /* 5. Keep your existing shadow */
     text-shadow: 0 0 15px rgba(255, 255, 255, 1),
-
                  0 0 30px rgba(0, 212, 255, 0.8) !important;
-
 }
-
 
 
 .star-light-custom {
