@@ -3,6 +3,7 @@ layout: portfolio
 title: "The Jagged Gyre of Galactic Fire"
 date: 2023-07-16 11:08:10 -0500
 modalID: modalGalacticFire
+img: img/portfolio/galacticFire-post.png
 category: Planetarium
 ---
 
