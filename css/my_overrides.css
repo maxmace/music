@@ -1,50 +1,52 @@
 /* ==========================================================================
-   0. GRID LAYOUT & FLEXBOX (FIXED)
+   0. GRID LAYOUT & FLEXBOX (UNIFIED & FIXED)
    ========================================================================== */
 
-/* 1. Turn the row into a Flex Container */
-#portfolio .row, 
-.article-flex-grid {
-    display: flex;
-    flex-wrap: wrap;
+/* 1. Ensure the row allows items to sit side-by-side */
+#portfolio .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-/* 2. Restore Widths while keeping Flex behavior */
-#portfolio .portfolio-item,
-.article-item,
-.studio-item {
-    float: none !important;
-    display: flex;
+/* 2. Force the 3-column width back onto the items */
+#portfolio .portfolio-item {
+    float: none !important; /* Keep your flex preference */
+    display: flex !important;
     flex-direction: column;
-    margin-bottom: 30px; /* Space between rows */
+    padding: 15px; /* Spacing between items */
+    
+    /* Responsive Widths */
+    width: 100% !important; /* Mobile default */
 }
 
-/* 3. Force 3-columns on Desktop, 2 on Tablet, 1 on Mobile */
-@media(min-width: 992px) {
-    #portfolio .portfolio-item { width: 33.33% !important; }
+/* Desktop: 3 items per row */
+@media (min-width: 992px) {
+    #portfolio .portfolio-item {
+        width: 33.333% !important;
+    }
 }
 
-@media(min-width: 768px) and (max-width: 991px) {
-    #portfolio .portfolio-item { width: 50% !important; }
+/* Tablet: 2 items per row */
+@media (min-width: 768px) and (max-width: 991px) {
+    #portfolio .portfolio-item {
+        width: 50% !important;
+    }
 }
 
-@media(max-width: 767px) {
-    #portfolio .portfolio-item { width: 100% !important; }
-}
-
-/* 4. Ensure the internal links fill the flex height */
-#portfolio .portfolio-link,
-.article-link,
-.studio-link {
+/* 3. Ensure the links and images fill the new widths */
+#portfolio .portfolio-link {
     width: 100%;
     flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    position: relative;
 }
 
 #portfolio img.img-responsive {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* Force Portfolio Heading to stay centered on all screen sizes */
