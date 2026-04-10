@@ -18,7 +18,7 @@ A 1970s-style planetarium laser rock odyssey for the holidays.
 
 Possibly the world's first retro planetarium Christmas track!
 
-[  *(Jump directly to bottom of page for video chapter selection)*{: style="color: yellow;"}  ](#vid-chapters)
+<a name="vid-chapters">  *(Jump directly to bottom of page for video chapter selection)*{: style="color: yellow;"}  </a>
 
 There have been hundreds of Christmas-themed planetarium shows throughout the years. Often centered on skywatching opportunities around the winter solstice. Occasionally explorations of the Christmas star provide opportunities to learn about meteors, comets and  supernovae. 
 
@@ -35,7 +35,7 @@ I'd like to think the season can spread a little warmth no matter where you find
 
 ---
 
-#### CHAPTERS {: #vid-chapters}
+<h4 id="vid-chapters"> CHAPTERS </h4>
 This video contains both a Listener's Guide and the original cinematic track "Space Angels", a new planetarium composition interpolating melodies from a couple traditional Christmas carols. 
 
 {% include youtube.html id="k0tFg6SawD0" start="23" end="204" thumb="img/vid/angles-notes.jpg" title="Play Listener's Guide only" %}
