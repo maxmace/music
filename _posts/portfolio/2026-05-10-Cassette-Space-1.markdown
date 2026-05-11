@@ -52,11 +52,11 @@ In the 80s, electronic musicians availed themselves of new portable studios, whi
 
 These devices were engineering marvels, using high bias tape, aggressive dbx noise reduction, and doubling the regular cassette tape speed to three inches per second.  
 
-> <span style="color:yellow">And yes, audio tape speed, like pipe organ stop pitches and railroad gauges are measured in American standard units. Another blow to the ego of the metric system. Get over it. All measurement units are arbitrary, but some are useful.</span>
+>>> <span style="color:yellow">And yes, audio tape speed, like pipe organ stop pitches and railroad gauges are measured in American standard units. Another blow to the ego of the metric system. Get over it. All measurement units are arbitrary, but some are useful.</span>
 
 While the portastudio was never used as a music distribution standard, it would have represented sand interesting evolution for the audio cassette. It could deliver surround sound in a portable, standardized, and highly accessible package. 
 
-If the quadraphonic marketing wars of the 70s had been won by consumers with "ambience heads", the audio cassete could have easily delivered one an entire quad album on a single side of a C-90 tape. 
+If the quadraphonic marketing wars of the 70s had been won by consumers with "ambience heads", the audio cassete could have easily delivered an entire quad album on one side of a C-90 tape. 
 
 At double-speed playback, the requisite 45 minute album length was readily available, and in discrete 4 channel sound! No matrixing compromise necessary! And the audio quality would be significantly better than a bog-standard commercial cassette.  
 
@@ -64,7 +64,7 @@ A standard cassette on an average tape deck would offer signal to noise ratio be
 
 By contrast, our hypothetical "Studio Surround" premium tape format could reach 18000 Hz or higher, with a realistic signal-to-noise ratio of around 80 decibels. And with the benefit of discrete multichannel surround!
 
-The only drawback would be that a chrome tape would be single sided using this scheme. When you were done playing the album, you'd have to "be kind" and rewind it to the beginning to listen again.  If you flipped it over and played it, you'd hear the entire album in reverse. Which probably would have been a boon to heavy metal fans.
+The only drawback would be that a chrome tape would be single-sided using this scheme. When you were done playing the album, you'd need to--in the vernacular of the time--"be kind and rewind" it to the beginning in order to listen again.  If you flipped it over and played it, you'd hear the entire album in reverse. Which probably would have been a boon to heavy metal fans.
 
 This isn't such a big drawback. 80's consumers were well accustomed to the "be kind, rewind" ritual with the ubiquitous VHS video tape.
 
@@ -72,12 +72,20 @@ This isn't such a big drawback. 80's consumers were well accustomed to the "be k
 ### Old Chrome Week
 #### Synthesizing a silk purse
 
-The most imitative acoustic instrument on this recording was actually done with the most limited synthesizer. The first synthesizer I owned, the Korg Poly 800 MK II, was Korg's answer to the  Roland Juno-like experiments exploring "what's the least we can do with this and still call it a synthesizer>"
+The most imitative acoustic instrument on this recording was actually done with the most limited synthesizer. The first synthesizer I owned, the Korg Poly 800 MK II, was Korg's answer to the  Roland Juno-like experiments exploring "what's the least we can do with this and still call it a synthesizer?"
 
-The Poly 800's oscillator is a digital square wave chip designed for toys and video games. The advertised 8-voice polyphony is really only FOUR (if you want customary 2-oscilator voices). Admittedly, the filter is great sounding, but there is a very big "BUT": the good-sounding filter is limited by that fact that there is only ONE of them-shared paraphonically across all voices. Play one key and it sounds great. Play 2 keys and the filter gets "stolen", re-trigged at each keypress. 
+The Poly 800's oscillator is a digital squarewave chip designed for toys and video games. The advertised 8-voice polyphony is really only FOUR, if you want customary 2-oscilator voices. 
 
-Nevertheless the Poly 800 square wave in combination with the terrific noise generator can produce an admirably realistic flute sound, complete with chiff.  I utilize it in a Jerry Goldsmith- inspired figure early in the composition.
+Admittedly, the filter sounds great, but there is a very big "BUT": the good-sounding filter is limited by that fact that there is only ONE of them. ONE filter...shared paraphonically across all the voices. All other polysynths stuck to a standard of one filter per voice. 
+
+On the Poly 800, play one key and it sounds great. Play two (or more) keys and the filter gets "stolen", re-trigged at each keypress. 
+
+Nevertheless the Poly 800 square wave, in combination with the terrific noise generator, can produce an admirably realistic flute sound--complete with chiff.  I utilize it in a Jerry Goldsmith-inspired figure early in the composition.
 
 ## Correcting distortions
 
-No artificial "tape saturation" plugins were used here, but the recording is deliberately overdriven and timbres were selected deliberately to evoke analog warmth. I discovered years ago that I can create "the sound of tape" by combining the right timbrel material mixed at deliberate levels without resorting to soaking the composition in morass of distortion, which is really what tape saturation "effects" are doing, oblivious to your musical intentions.
+No artificial "tape saturation" plugins were used here, but the recording is deliberately overdriven and timbres were selected deliberately to evoke analog warmth. I discovered years ago that I can create "the sound of tape" by combining suitable timbrel material mixed at deliberate levels without resorting to soaking the composition in morass of distortion, which is really what tape saturation "effects" are doing.
+
+ They apply a sheen of a specific style of distortion uniformly over your recording, hopefully adding a veneer of analog warmth.  This cartoon approach may work for drum and bass tracks, but smear the details of cinematic or orchestral recordings, fiddling with phases and stereo cues, oblivious to your musical intentions. 
+
+Hopefully you will find this mix a rewarding listening experience, warm and detailed, but free of artificial distortion that can cause ear fatigue.  
