@@ -9,7 +9,11 @@ category: Notes
 ## Cassette Space 1 - Chromium Pilgrimage
 #### Elliptically orbiting the nucleus of your dreams, this music assembles itself into a * Brocken Spectre * of your subconscious. The Chromium formulation reflects back exactly what you cast into it
 
+
+
 {% include youtube.html id="DmFO4wR6az0" title="Cassette Space 1 - Chromium Pilgrimage" %}
+
+
 
 
 Some may accuse this of being vaguely spiritual. All I can say is, like a lot of my oeuvre, this track is half metaphysics and half astrophysics.
@@ -18,7 +22,7 @@ Some may accuse this of being vaguely spiritual. All I can say is, like a lot of
 That's a very old joke. But then again, this is retro planetarium music.
 
 
-While AI often arrives at surrealism by accident, this entire production This entire production was written, recorded and visualized by a real live human being, designed to be a semi- psychedelic survey of both spacetime and dreamtime. 
+While AI often arrives at surrealism by accident, this entire production was written, recorded and visualized by a real live human being, designed to be a semi-psychedelic survey of both spacetime and dreamtime. 
 
 
 ## The Composition 
