@@ -6,16 +6,27 @@ img: img/portfolio/cassette-space-post.png
 modalID: modalCassette1
 category: Notes
 ---
-# Cassette Space 1 - Chromium Pilgrimage
-## Surreally orbiting the parliament of your dreams, this music assembles itself into a Brocken Spectre of your subconscious. The Chromium formulation reflects back exactly what you cast into it
+## Cassette Space 1 - Chromium Pilgrimage
+#### Elliptically orbiting the nucleus of your dreams, this music assembles itself into a * Brocken Spectre * of your subconscious. The Chromium formulation reflects back exactly what you cast into it
 
 {% include youtube.html id="DmFO4wR6az0" title="Cassette Space 1 - Chromium Pilgrimage" %}
 
+
 Some may accuse this of being vaguely spiritual. All I can say is, like a lot of my oeuvre, this track is half metaphysics and half astrophysics.
+
 
 That's a very old joke. But then again, this is retro planetarium music.
 
+
 While AI often arrives at surrealism by accident, this entire production This entire production was written, recorded and visualized by a real live human being, designed to be a semi- psychedelic survey of both spacetime and dreamtime. 
+
+
+## The Composition 
+
+"Cassette Space 1 - Chromium Pilgrimage" suggests an 80s Chrome tape experiment that is euphoric but slightly more twilight zone than comfort zone. 
+
+A cosmic overture bookend a floating, dreamlike shower of sound that only occasionally evoles Vangelis' Blade Runner atmosphere, without copying any of his notes.
+
 
 ## The Medium is the messenger 
 ### the versitility of the cassette in the 80s
@@ -28,8 +39,8 @@ In the mid-80s as high quality compact disc audio became available to consumers,
 
 Beyond home stereo playback, cassettes were also used for 8 bit home computer data. They were cheap and affordable, used much in the manner of USB thumb drives, albeait much slower and of proportionately miniscule data capacity. 
 
-## Chrome at Home
-### where I posit an imaginary cassette home media format the Techmoan never thought of
+### Chrome at Home
+#### where I posit an imaginary cassette home media format the Techmoan never thought of
 
 In the 80s, electronic musicians availed themselves of new portable studios (((photo))), which were in reality, souped-up cassette decks. 
 
@@ -51,14 +62,9 @@ The only drawback would be that a chrome tape would be single sided using this s
 
 This isn't such a big drawback. 80's consumers were well accustomed to the "be kind, rewind" ritual with the ubiquitous VHS video tape.
 
-# The Composition 
 
-"Cassette Space 1 - Chromium Pilgrimage" suggests an 80s Chrome tape experiment that is euphoric but slightly more twilight zone than comfort zone. 
-
-A cosmic overture bookend a floating, dreamlike shower of sound that only occasionally evoles Vangelis' Blade Runner atmosphere, without copying any of his notes.
-
-## Old Chrome Week
-### Synthesizing a silk purse
+### Old Chrome Week
+#### Synthesizing a silk purse
 
 The most imitative acoustic instrument on this recording was actually done with the most limited synthesizer. The first synthesizer I owned, the Korg Poly 800 MK II, was Korg's answer to the  Roland Juno-like experiments exploring "what's the least we can do with this and still call it a synthesizer>"
 
@@ -66,6 +72,6 @@ The Poly 800's oscilartor is a digital square wave chip designed for toys and vi
 
 Nevertheless the Poly 800 square wave in combination with the terrific noise generator can produce an admirably realistic flute sound, complete with chiff.  I utilize it in a Jerry Goldsmith- inspired figure early in the composition.
 
-# Correcting distortions
+## Correcting distortions
 
 No artificial "tape saturation" plugins were used here, but the recording is deliberately overdriven and tambres were selected deliberately to evoke analog warmth. I discovered years ago that I can create "the sound of tape" by combining the right tambrel material mixed at deliberate levels without resorting to soaking the composition in bog of distortion, which is really what tape saturation "effects" are doing, oblivious to your musical intentions.
