@@ -7,7 +7,7 @@ modalID: modalCassette1
 category: Notes
 ---
 # Cassette Space 1 - Chromium Pilgrimage
-## A two part invention for baroque synthesizer
+## Surreally orbiting the parliament of your dreams, this music assembles itself into a Brocken Spectre of your subconscious. The Chromium formulation reflects back exactly what you cast into it
 
 {% include youtube.html id="DmFO4wR6az0" title="Cassette Space 1 - Chromium Pilgrimage" %}
 
