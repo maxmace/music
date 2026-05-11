@@ -46,7 +46,9 @@ Beyond home stereo playback, cassettes were also used for 8 bit home computer da
 ### Chrome at Home
 #### where I posit an imaginary cassette home media format the Techmoan never thought of
 
-In the 80s, electronic musicians availed themselves of new portable studios (((photo))), which were in reality, souped-up cassette decks. 
+In the 80s, electronic musicians availed themselves of new portable studios, which were in reality, souped-up cassette decks. 
+
+![Portastudio]({{ site.baseurl }}/img/portfolio/portastudio.jpg) Tascam MF-P01 PortaStudio 
 
 Using high bias tape, aggressive dbx noise reduction, and doubling the regular cassette tape speed to three inches per second.  
 
