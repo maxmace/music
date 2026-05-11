@@ -9,7 +9,7 @@ category: Notes
 # Cassette Space 1 - Chromium Pilgrimage
 ## A two part invention for baroque synthesizer
 
-{% include youtube.html id="iTXEMwQ3lqQ" title="Cassette Space 1 - Chromium Pilgrimage" %}
+{% include youtube.html id="DmFO4wR6az0" title="Cassette Space 1 - Chromium Pilgrimage" %}
 
 Some may accuse this of being vaguely spiritual. All I can say is, like a lot of my oeuvre, this track is half metaphysics and half astrophysics.
 
