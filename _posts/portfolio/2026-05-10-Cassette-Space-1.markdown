@@ -52,7 +52,7 @@ In the 80s, electronic musicians availed themselves of new portable studios, whi
 
 These devices were engineering marvels, using high bias tape, aggressive dbx noise reduction, and doubling the regular cassette tape speed to three inches per second.  
 
->>> <span style="color:yellow">And yes, audio tape speed, like pipe organ stop pitches and railroad gauges are measured in American standard units. Another blow to the ego of the metric system. Get over it. All measurement units are arbitrary, but some are useful.</span>
+>>>> <span style="color:yellow">And yes, audio tape speed, like pipe organ stop pitches and railroad gauges are measured in imperial, or similar American standard units. Another blow to the ego of the metric system. Get over it. All measurement units are arbitrary, but some are useful.</span>
 
 While the portastudio was never used as a music distribution standard, it would have represented sand interesting evolution for the audio cassette. It could deliver surround sound in a portable, standardized, and highly accessible package. 
 
