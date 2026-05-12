@@ -16,10 +16,10 @@ category: Notes
 
 
 
-Some may accuse this of being vaguely spiritual. All I can say is, like a lot of my oeuvre, this track is half metaphysics and half astrophysics.
+Some may accuse this of being vaguely spiritual. All I can say is, like much of my oeuvre, this track is half metaphysics and half astrophysics.
 
 
-That's a very old joke. But then again, this is retro planetarium music.
+That's a very old joke. But then again, this is *retro* planetarium music.
 
 
 While AI often arrives at surrealism by accident, this entire production was written, recorded and visualized by a real live human being, designed to be a semi-psychedelic survey of both spacetime and dreamtime. 
@@ -27,9 +27,9 @@ While AI often arrives at surrealism by accident, this entire production was wri
 
 ## The Composition 
 
-"Cassette Space 1 - Chromium Pilgrimage" suggests an 80s Chrome tape experiment that is euphoric but slightly more twilight zone than comfort zone. 
+"Cassette Space 1 - Chromium Pilgrimage" suggests an 80s Chrome tape experiment that is euphoric but slightly more *Twilight Zone* than *comfort zone*. 
 
-A cosmic overture bookend a floating, dreamlike shower of sound that only occasionally evokes Vangelis' Blade Runner atmosphere, without copying any of his notes.
+A cosmic overture bookends a floating, dreamlike shower of sounds that only occasionally evokes Vangelis' Blade Runner atmosphere, without copying any of his notes.
 
 
 ## The Medium is the messenger 
