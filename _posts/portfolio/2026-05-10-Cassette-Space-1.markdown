@@ -84,7 +84,16 @@ Nevertheless the Poly 800 square wave, in combination with the terrific noise ge
 
 ## Correcting distortions
 
-No artificial "tape saturation" plugins were used here, but the recording was judiciously overdriven in the analog domain before it reached any DAC.  Furthermore, timbres were fashioned deliberately to evoke analog warmth. I discovered years ago that I can create "the sound of tape" by combining suitable timbrel material mixed at deliberate levels without resorting to soaking the composition in morass of distortion, which is really what tape saturation "effects" are doing, introducing subtle distortion, rolling off high frequencies, and boosting low-end. 
+No artificial "tape saturation" plugins were used here, I eschew tape saturation plugins except as an effect.  
+
+This recording was judiciously overdriven during the recording process in the analog domain before it reached any DAC. Also, timbres were fashioned deliberately to evoke analog warmth.
+
+I discovered years ago that I can create "the sound of tape" by combining suitable timbrel material mixed at deliberate levels without resorting to soaking the composition in morass of distortion, which is really what tape saturation "effects" are doing, introducing subtle distortion, rolling off high frequencies, and boosting low-end. 
+
+This mix was engineered to:
+- Bloom not blur
+- feel warm, not fuzzy
+- Allow portions of the ‘picture’ to glow without haphazardly plastering digital gauze over the entire image.
 
 While plugins are oblivious to the composers' musical intentions, I believe I can do a much better job of "warmth management", crafting the sound surgically on a per-sound and per-track basis without slathering distortion everywhere.
 
