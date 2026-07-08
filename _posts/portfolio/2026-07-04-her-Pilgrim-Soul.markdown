@@ -47,7 +47,7 @@ Her Pilgrim Soul is a tribute to dads, daughters, and the sense of wonder that d
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 2em; margin-bottom: 2em;">
   
-  <div style="flex: 1; min-width: 300px; border: 2px solid #444; border-radius: 8px; padding: 25px; box-sizing: border-box;">
+  <div style="flex: 1; min-width: 300px; border: 2px solid #9adfff; border-radius: 10px; padding: 25px; box-sizing: border-box;">
     <h3 style="margin-top: 0;">"When You Are Old"</h3>
     <h4 style="color: #888;">By William Butler Yeats</h4>
    <i>
@@ -74,7 +74,7 @@ Her Pilgrim Soul is a tribute to dads, daughters, and the sense of wonder that d
    </i>
   </div>
 
-  <div style="flex: 1; min-width: 300px; border: 2px solid #444; border-radius: 8px; padding: 25px; box-sizing: border-box;">
+  <div style="flex: 1; min-width: 300px; border: 2px solid #9adfff; border-radius: 10px; padding: 25px; box-sizing: border-box;">
     <h3 style="margin-top: 0;">"Night"</h3>
     <h4 style="color: #888;">by Sara Teasdale</h4>
     <p style="margin-bottom: 0;">
