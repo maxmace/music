@@ -3,8 +3,11 @@ layout: portfolio
 title:  "Her Pilgrim Soul"
 date:   2026-07-04 11:08:10 -0500
 modalID: modalPilgrim
-category: Notes
+category: Eighties
 ---
+
+
+
 ## Her Pilgrim Soul
 ### Cosmic electronic music in an eighties vibe
 #### A celebration of dads, daughters, and the sense of wonder that drives our destinies 
