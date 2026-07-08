@@ -50,36 +50,42 @@ Her Pilgrim Soul is a tribute to dads, daughters, and the sense of wonder that d
   <div style="flex: 1; min-width: 300px; border: 2px solid #444; border-radius: 8px; padding: 25px; box-sizing: border-box;">
     <h3 style="margin-top: 0;">"When You Are Old"</h3>
     <h4 style="color: #888;">By William Butler Yeats</h4>
+   <i>
     <p>
       When you are old and grey and full of sleep,<br>
       And nodding by the fire, take down this book,<br>
       And slowly read, and dream of the soft look<br>
       Your eyes had once, and of their shadows deep;
     </p>
+    <br>
     <p>
       How many loved your moments of glad grace,<br>
       And loved your beauty with love false or true,<br>
       But one man loved the pilgrim soul in you,<br>
       And loved the sorrows of your changing face;
     </p>
+    <br>
     <p style="margin-bottom: 0;">
       And bending down beside the glowing bars,<br>
       Murmur, a little sadly, how Love fled<br>
       And paced upon the mountains overhead<br>
       And hid his face amid a crowd of stars.
     </p>
+   </i>
   </div>
 
   <div style="flex: 1; min-width: 300px; border: 2px solid #444; border-radius: 8px; padding: 25px; box-sizing: border-box;">
     <h3 style="margin-top: 0;">"Night"</h3>
     <h4 style="color: #888;">by Sara Teasdale</h4>
     <p style="margin-bottom: 0;">
+     <i>
       Stars over snow,<br>
       And in the west a planet<br>
       Swinging below a star——<br>
       Look for a lovely thing and you will find it,<br>
       It is not far——<br>
       It will never be far. 
+     </i>
     </p>
   </div>
 
