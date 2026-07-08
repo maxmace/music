@@ -2,6 +2,7 @@
 layout: portfolio
 title:  "Her Pilgrim Soul"
 date:   2026-07-04 11:08:10 -0500
+img: img/portfolio/pilgrim-soul-18x13-post.png
 modalID: modalPilgrim
 category: Eighties
 ---
