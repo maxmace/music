@@ -57,14 +57,14 @@ Her Pilgrim Soul is a tribute to dads, daughters, and the sense of wonder that d
       And slowly read, and dream of the soft look<br>
       Your eyes had once, and of their shadows deep;
     </p>
-    <br>  <br>
+    <br>  
     <p>
       How many loved your moments of glad grace,<br>
       And loved your beauty with love false or true,<br>
       But one man loved the pilgrim soul in you,<br>
       And loved the sorrows of your changing face;
     </p>
-    <br>  <br>
+    <br>  
     <p style="margin-bottom: 0;">
       And bending down beside the glowing bars,<br>
       Murmur, a little sadly, how Love fled<br>
