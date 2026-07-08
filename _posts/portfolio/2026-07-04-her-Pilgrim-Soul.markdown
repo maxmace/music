@@ -19,7 +19,9 @@ category: Eighties
 
 
 Her Pilgrim Soul
+
 © MMXXVI
+
 This track is dedicated to H. & R.  
 
 Two poets: William Butler Yeats and Sara Teasdale.
@@ -43,46 +45,46 @@ This brief space music composition celebrates the never-ending cycle of passing 
 Her Pilgrim Soul is a tribute to dads, daughters, and the sense of wonder that drives our destinies.
 
 
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 2em; margin-bottom: 2em;">
+  
+  <div style="flex: 1; min-width: 300px; border: 2px solid #444; border-radius: 8px; padding: 25px; box-sizing: border-box;">
+    <h3 style="margin-top: 0;">"When You Are Old"</h3>
+    <h4 style="color: #888;">By William Butler Yeats</h4>
+    <p>
+      When you are old and grey and full of sleep,<br>
+      And nodding by the fire, take down this book,<br>
+      And slowly read, and dream of the soft look<br>
+      Your eyes had once, and of their shadows deep;
+    </p>
+    <p>
+      How many loved your moments of glad grace,<br>
+      And loved your beauty with love false or true,<br>
+      But one man loved the pilgrim soul in you,<br>
+      And loved the sorrows of your changing face;
+    </p>
+    <p style="margin-bottom: 0;">
+      And bending down beside the glowing bars,<br>
+      Murmur, a little sadly, how Love fled<br>
+      And paced upon the mountains overhead<br>
+      And hid his face amid a crowd of stars.
+    </p>
+  </div>
 
+  <div style="flex: 1; min-width: 300px; border: 2px solid #444; border-radius: 8px; padding: 25px; box-sizing: border-box;">
+    <h3 style="margin-top: 0;">"Night"</h3>
+    <h4 style="color: #888;">by Sara Teasdale</h4>
+    <p style="margin-bottom: 0;">
+      Stars over snow,<br>
+      And in the west a planet<br>
+      Swinging below a star——<br>
+      Look for a lovely thing and you will find it,<br>
+      It is not far——<br>
+      It will never be far. 
+    </p>
+  </div>
 
+</div>
 
-{::div style="display: flex; gap: 40px;"}
-
-{::div style="flex: 1;"}
-### "When You Are Old" 
-#### By William Butler Yeats
-When you are old and grey and full of sleep,
-And nodding by the fire, take down this book,
-And slowly read, and dream of the soft look
-Your eyes had once, and of their shadows deep;
-
-How many loved your moments of glad grace,
-And loved your beauty with love false or true,
-But one man loved the pilgrim soul in you,
-And loved the sorrows of your changing face;
-
-And bending down beside the glowing bars,
-Murmur, a little sadly, how Love fled
-And paced upon the mountains overhead
-And hid his face amid a crowd of stars.
-
-{:/div}
-
-
-{::div style="flex: 1;"}
-
-### "Night"
-#### by Sara Teasdale
-Stars over snow,
-And in the west a planet
-Swinging below a star——
-Look for a lovely thing and you will find it,
-It is not far——
-It will never be far. 
-
-
-
-{:/div}
 
 Memory Wheel is an ambient space music project of M. André Wynkoop
 
