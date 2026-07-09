@@ -17,12 +17,15 @@ category: Eighties
 
 {% include youtube.html id="vucIRc9_p8E" title="Her Pilgrim Soul" %}
 
+<span style="color: DeepSkyBlue;">
 
 Her Pilgrim Soul
 
 © MMXXVI
 
 This track is dedicated to H. & R.  
+
+</span>
 
 Two poets: William Butler Yeats and Sara Teasdale.
 
