@@ -17,7 +17,7 @@ category: Eighties
 
 {% include youtube.html id="vucIRc9_p8E" title="Her Pilgrim Soul" %}
 
-<span style="color: DeepSkyBlue;">
+<span style="color: DeepSkyBlue; font-style: italic; font-weight: bold;">
 
 Her Pilgrim Soul
 
