@@ -15,9 +15,11 @@ category: Seventies
 
 ### 1. The cosmic concept
 Galactic filaments and quantum information theory. 
+
 #### Galactic filaments
 Galactic filaments being the chains of galaxies that form the web of “bubbles” which the fill the structure of the universe. The filaments of galaxies are particularly graceful, like alien lacework, which is a charmingly dainty metaphor, considering that the filaments are comprised of galaxies containing (by definition) the most violent and energetic phenomenon known to science.
 ![Portastudio]({{ site.baseurl }}/img/portfolio/galactic filaments-web-scaled.png) Galactic filaments forming a small sliver of the cosmic web. Even though this picture represents an infinitesimal part of the entire cosmos, it is still depicts one of the largest structures of any image you have ever seen.
+
 
 #### Quantum Information Theory
 “Unitarity” is a clumsy word describing the theory that information is never truly lost. It’s a foundational concept also known as the conservation of information.
@@ -27,8 +29,10 @@ As a layman, you’ve most likely come across this concept during discussions su
 
 >>>> <span style="color:yellow">### A poetic aside about the word “Unitarity”<br><br> From a musical/lyrical standpoint, the word “Unitarity” is ungainly enough that it draws attention to itself.  <br><br>As a series of stressed and unstressed syllables it could be described as “˘/ ˘//”, an iamb followed by the rarely seen bacchius, or bacchic foot. <br><br> In musical notation, this word might look something like this: ♬♬ ♩, which I consider rhythmically interesting but enunciatively awkward (just like this current sentence!).</span>
 
-Two great things that taste great together
-Galactic filaments have no literal connection to the concept conservation of information, 
+### Two great things that taste great together
+Galactic filaments have a mere academic connection to the concept conservation of information. I'm employing the two things here as **artistic connective tissue** for the idea of memory and the cosmos. The project is called "Memory Wheel", after all. Galactic filaments, a physical string from the past unspooling into the far future, which can be rewound to reveal the past... It's a powerful metaphor for memory and forgetfulness. It almost represents the anti-Lethe. 
+
+A river of cosmic memory.  
 
 ### 2. The musical argot
 
