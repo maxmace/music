@@ -58,3 +58,11 @@ I’d like to close with a link to the full version of spoken word epigraph incl
 Memory Wheel is an ambient space music project of M. André Wynkoop.
 
 No AI tools were used in the composition, performance or production of this music.
+
+As an addendum of the kind of nonsense I usually leave out of these write-ups, I briefly removed the following section involving the redundancy of the title: 
+
+"Lethe of Forgotten Things" is a somewhat repetitive turn of phrase, but it has a pleasant sound when spoken. It is tautological, but poetically so. Or, considering the classical subject matter, one might consider it Tartarus-logical. 
+
+I don't expect you to be Charon for puns like that, but some of them really Styx with you. 
+
+I'll Elysium you alone now. 
