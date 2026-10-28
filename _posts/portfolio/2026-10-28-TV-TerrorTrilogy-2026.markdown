@@ -66,7 +66,7 @@ From a video standpoint, I was delighted at how much fun it was to assemble my o
 - Have Robert Stack read the following script, inserting your item in the highlighted selection:
 
   > *"On a dark night in September 1992, a family returned home to discover that each of them had an inexplicable desire for ==macaroni and cheese==...
-
+{: style="color: LightYellow;"}
 (*Unsolved Mysteries Game* invented feruary 3rd, 2019)
 {: style="color: LightYellow;"}
 
