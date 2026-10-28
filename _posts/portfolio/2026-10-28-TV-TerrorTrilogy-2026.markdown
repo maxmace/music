@@ -10,7 +10,7 @@ category: 80s
 ## 2026 Terror Trilogy: 80s TV Terror! 
 ### Re-Recording three pivotal horror themes from the eighties!
 
-Four videos and three remakes for this year’s Halloween trilogy.
+Four videos and three remakes for this year’s Halloween trilogy. The themes are:
 
 <ol type="I" style="color: aqua;">
   <li>Tales from the Darkside</li>
@@ -18,10 +18,10 @@ Four videos and three remakes for this year’s Halloween trilogy.
   <li>Garth Marenghi's Darkplace</li>
 </ol>
 
-Each show gets a delightful explanatory video that you should watch. I’m proud of each of them.
+Each show gets a delightful explanatory video which you *should* watch. I’m proud of each of them.
 Or, if you just want to hear the music, Play the medley video. 
 
-The progression of the three themes was chosen deliberately, winnowed down from a list of about a dozen cues, so that they would flow naturally, and build to an emotional and musical crescendo.
+The progression of the three themes was chosen deliberately, winnowed down from a list of about a dozen cues, so that they would flow naturally and build to an emotional and musical crescendo.
 
 {% include youtube.html id="RSZQTLTaeok" title="2026 Terror Trilogy – 80s TV Medley" %}
 <!-- https://youtu.be/RSZQTLTaeok -->
@@ -39,7 +39,7 @@ The progression of the three themes was chosen deliberately, winnowed down from 
 ### Linking them together
 #### The Brandenburg connection
 
-The cues in the medley segue seamlessly except, for Unsolved Mysteries-to-Darkplace. 
+RE The Medley version, the cues segue seamlessly from one to another except, for Unsolved Mysteries-to-Darkplace. 
 For it, I composed linking material. 
 
 And trust me, it is the greatest link since Bach took 30 seconds to pen the second movement of Brandenburg Concerto No. 3.  
@@ -51,9 +51,21 @@ If you are particularly invested in my effort, you’ll be glad to know that the
 
 ### Recording and assembly 
 
-I approached this somewhat in reverse order, reverse engineering Darkplace first. Actually once I decided that the composer probably used something like a Yamaha XG guitar (like in the X-Men cartoon theme) to evoke period flavor, the entire arrangement flowed from there. The arrangement was also informed by the T.J. Hooker theme (as mentioned in the video).
+I approached this backward, reverse engineering Darkplace first. Actually once I decided that the composer probably used something like a Yamaha XG guitar (like in the X-Men cartoon theme) to evoke period flavor, the entire arrangement flowed from there. The arrangement was also informed by the T.J. Hooker theme (as mentioned in the video).   
 
-After I’d completed Darkplace, I was able to complete Tales from the Darkside on a Sunday afternoon,  I’d previously made a bell sound on a Korg Poly 800 Mk II that sounded like the Roland Juno 60. "Tales from the Darkside" came together quickly because it *wanted* to be played on 80s synthesizers!
+If you hang out *all the way* through the medley video and listen to the runout, you'll hear an easter egg. Its the solo tracks of me chanting "Darkplace" for the finale. Actually its about *nine* of me chanting "Darkplace" for the finale.
+
+After I’d completed Darkplace, I was able to complete Tales from the *Darkside* on a Sunday afternoon,  I’d previously made a bell on a Korg Poly 800 Mk II that sounded like the Roland Juno 60. "Tales from the Darkside" came together quickly because it *wanted* to be played on 80s synthesizers!
+
+Listening to the real *Unsolved Mysteries* TV theme, you immediately notice how punchy their drums are. I took care to really lay into the drums on this  performance.
+
+From a video standpoint, I was delighted at how much fun it was to assemble my own  *Unsolved Mysteries*-style footage, and how well it works. My nephew and I devised a Mad Lib-style game to make anything scary or ominous:
+
+- Pick any item. Example: Macaroni and cheese.
+- Play the *Unsolved Mysteries* theme in the background.
+- Have Robert Stack read the following script, inserting your item in the highlighted selection:
+
+  > *"On a dark night in September 1992, a family returned home to discover that each of them had an inexplicable desire for ==macaroni and cheese==...
 
 ### Credits
 
