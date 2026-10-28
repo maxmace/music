@@ -12,10 +12,11 @@ category: 80s
 
 Four videos and three remakes for this year’s Halloween trilogy.
 
-{::ol type="I"}
-1. Tales from the Darkside
-2. Unsolved Mysteries
-3. Garth Marenghis Darkplace
+<ol type="I">
+  <li>Tales from the Darkside</li>
+  <li>Unsolved Mysteries</li>
+  <li>Garth Marenghi's Darkplace</li>
+</ol>
 
 Each show gets a delightful explanatory video that you should watch. I’m proud of each of them.
 Or, if you just want to hear the music, Play the medley video. 
@@ -69,6 +70,7 @@ After I’d completed Darkplace, I was able to complete Tales from the Darkside 
 
 ### Footnote 
 #### Bach, Wendy Carlos, and being creative with a Brandenburg
+##### Admittedly, this has very little to do with a Halloween trilogy of horror themes...
 
 [^1]:  \* I was always taught that Bach intended the second movement to be guidance for players to improvise something suitable. It’s always amusing to me when I hear a major recording of the 3rd Branderburg and the second movement just consists of “Dah…DUM!”.
 
