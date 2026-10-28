@@ -67,6 +67,10 @@ From a video standpoint, I was delighted at how much fun it was to assemble my o
 
   > *"On a dark night in September 1992, a family returned home to discover that each of them had an inexplicable desire for ==macaroni and cheese==...
 
+(*Unsolved Mysteries Game* invented feruary 3rd, 2019)
+{: style="color: LightYellow;"}
+
+
 ### Credits
 
 - ### Compositions, IP, and visual footage remain property of original rights holders.
