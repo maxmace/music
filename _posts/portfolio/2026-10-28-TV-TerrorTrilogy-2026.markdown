@@ -17,15 +17,18 @@ If you are a fan of brevity, I have you covered. While the Adagio from Brandenbu
 
 If you are particularly invested in my effort, you’ll be glad to know that the custom synthesizer patch used for the one-note segue employs two low pass filters and four oscillators, so forethought was exercised. It’s not like I just turned on a preset machine and punched a key at random.  
 
-<!-- 
-{% include youtube.html id="1VQQLxlhdMM" title="2026 Terror Trilogy – 80s TV Medley" %}
 
-{% include youtube.html id="1VQQLxlhdMM" title="2026 Terror Trilogy I – Tales from the Darkside" %}
+{% include youtube.html id="RSZQTLTaeok" title="2026 Terror Trilogy – 80s TV Medley" %}
+<!-- https://youtu.be/RSZQTLTaeok -->
 
-{% include youtube.html id="1VQQLxlhdMM" title="2026 Terror Trilogy II – Unsolved Mysteries" %}
+{% include youtube.html id="ug_DUECBvEA" title="2026 Terror Trilogy I – Tales from the Darkside" %}
+<!-- https://youtu.be/ug_DUECBvEA -->
 
-{% include youtube.html id="1VQQLxlhdMM" title="2026 Terror Trilogy III – Garth Marenghis Darkplace" %}
--->
+{% include youtube.html id="daIV7XosTEk" title="2026 Terror Trilogy II – Unsolved Mysteries" %}
+<!-- https://youtu.be/daIV7XosTEk -->
+
+{% include youtube.html id="aJTVLTNy7gM" title="2026 Terror Trilogy III – Garth Marenghis Darkplace" %}
+<!-- https://youtu.be/aJTVLTNy7gM -->
 
 Actually, the progression of the three themes was chosen deliberately, winnowed down from a list of about a dozen cues, so that they would flow naturally, and build to an emotional and musical crescendo.
 
