@@ -12,7 +12,7 @@ category: 80s
 
 Four videos and three remakes for this year’s Halloween trilogy.
 
-<ol type="I">
+<ol type="I" style="color: aqua;">
   <li>Tales from the Darkside</li>
   <li>Unsolved Mysteries</li>
   <li>Garth Marenghi's Darkplace</li>
